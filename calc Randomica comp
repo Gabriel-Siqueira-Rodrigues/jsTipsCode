@@ -1,0 +1,22 @@
+calc randomica de compatibilidade (fake pra meninas de 5 á 13 anos)
+
+
+
+let numeros = Math.random() * 100;
+
+console.log(numeros);
+numeros = Math.floor(numeros + 1);
+prompt('Seu nome');
+prompt('Nome dele(a)');
+
+if(numeros >= 30 && numeros <= 70){
+    alert(' A porcentagem de compatibilidade entre vocês dois é: ' + numeros + '%,' + ' Seu nivel de compatibilidade é meio mééé...')
+};
+
+if(numeros < 30){
+    alert(' A porcentagem de compatibilidade entre vocês dois é: ' + numeros + '%,' + ' Seu nivel de compatibilidade é horrivel, larga ele(a).')
+};
+
+if(numeros > 70){
+    alert(' A porcentagem de compatibilidade entre vocês dois é: ' + numeros + '%,' + ' Seu nivel de compatibilidade é top, ja pede em namoro')
+};
